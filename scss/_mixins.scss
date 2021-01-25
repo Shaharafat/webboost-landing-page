@@ -1,0 +1,21 @@
+// FLEX
+@mixin flex($direction: row, $align-items: center, $justify-content: center) {
+  display: flex;
+  flex-direction: $direction;
+  align-items: $align-items;
+  justify-content: $justify-content;
+}
+
+@mixin oneThird-box-mixin{
+  display: flex;
+  flex-direction: column;
+  justify-content: stretch;
+  align-items: center;
+  width: 30%;
+
+  &__icon{
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+  }
+}

@@ -1,0 +1,12 @@
+.quarter{
+  .quarter__left{
+    flex-basis: 35%;
+  }
+
+  .quarter__right{
+    width: 60%;
+    &__time{
+      font-family: 'QuickSand';
+    }
+  }
+}

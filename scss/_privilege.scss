@@ -1,0 +1,6 @@
+.privilege{
+  &__box{
+    @include oneThird-box-mixin;
+    align-items: flex-start;
+  }
+}

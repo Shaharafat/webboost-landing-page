@@ -1,0 +1,55 @@
+// variables
+
+// color variables
+$yellow-background: #FECA57;
+$white-background: #FBFBFB;
+$gray-background: #EFEFEF;
+$black-background: #000000;
+$hero-section-background: linear-gradient($yellow-background 65%, $white-background 65%);
+$light-black: #212121;
+$light-gray: #666666;
+$white-font: #EFEFEF;
+$orange: #EF5350;
+$yellow: #FECA57;
+$skyblue: #90CAF9;
+$green: #558B2F;
+
+.bg-yellow{
+  background-color: $yellow-background;
+}
+
+.bg-white{
+  background-color: $white-background;
+}
+
+.bg-black{
+  background-color: $black-background;
+}
+
+.bg-gray{
+  background-color: $gray-background;
+}
+
+.bg-orange{
+  background-color: $orange;
+}
+
+.bg-yellow{
+  background-color: $yellow;
+}
+
+.bg-skyblue{
+  background-color: $skyblue;
+}
+
+.bg-green{
+  background-color: $green;
+}
+
+.font-white{
+  color: $white-font;
+}
+
+.font-light-gray{
+  color: $light-gray;
+}

@@ -1,0 +1,10 @@
+.hero-section{
+  // height: 100vh;
+  background-image: $hero-section-background;
+
+  &__video{
+    width: 80%;
+    height: 500px;
+    border: 7px solid $light-black;
+  }
+}
